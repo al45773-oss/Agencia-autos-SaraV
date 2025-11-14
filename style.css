@@ -24,3 +24,31 @@ body{
     height: 10px;
     background: red;
 }
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.color-azul{
+    background: #5c93c4;
+    flex: 1;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.color-rojo{
+    background: #c40000;
+    flex: 2;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
