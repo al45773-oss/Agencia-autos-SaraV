@@ -52,3 +52,25 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+
+.catalogo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.logo{
+    background-color: #824545;
+    color: yellow;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.logo img{
+    width: 50%;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
