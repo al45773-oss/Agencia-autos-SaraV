@@ -52,9 +52,28 @@
                 <label><input type="checkbox" name="extra" value="Aire Acondicionado">Aire Acondicionado</label><br>
                 <label><input type="checkbox" name="extra" value="GPS">GPS</label><br>
                 <label><input type="checkbox" name="extra" value="Seguro">Incluir Seguro</label><br>
-                
+                <label><input type="checkbox" name="extra" value="Quemacocos">Quemacocos</label><br>
+                <label><input type="checkbox" name="extra" value="Camara trasera">Cámara Trasera</label><br>
+                <label><input type="checkbox" name="extra" value="Camara Frontal">Cámara Frontal</label><br>
             </fieldset>
+
+            <label>Marca del vehículo:</label><br>
+            <select name="Marca">
+                <option>HONDA</option>
+                <option>NISSAN</option>
+                <option>TOYOTA</option>
+                <option>MAZDA</option>
+                <option>HYUNDAI</option>
+                <option>KIA</option>
+                <option>MITSUBISHI</option>
+                <option>SUZUKI</option>
+            </select><br><br>
+
+            <button type="button" onclick="mostrarCotizacion()">Enviar Cotización</button>
         </form>
+
+        <div id="resultado" style="margin-top: 20px; font-size: 18px; font-weight: bold;"></div>
+
     </div>
   
 </body>
