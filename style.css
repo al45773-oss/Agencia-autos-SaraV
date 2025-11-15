@@ -75,3 +75,19 @@ body{
     margin-bottom: 10px;
 }
 
+.cotizacion{
+    padding: 20px;
+}
+
+.cotizacion h2{
+    text-align: center;
+}
+
+fieldset{
+    margin: 15px 0;
+    padding: 15px;
+}
+
+footer{
+    text-align: center;
+}
