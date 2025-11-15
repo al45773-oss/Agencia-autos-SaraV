@@ -31,6 +31,31 @@
         <div class="logo"><a href="CatalogoAutos/autos.html"><img src="img/logomitsubishi.jpg"><p>MITSUBISHI</p></a></div>
         <div class="logo"><a href="CatalogoAutos/autos.html"><img src="img/logosuzuki.png"><p>SUZUKI</p></a></div>
     </div>
+
+    <div class="cotizacion">
+        <h2>Cotización de vehículos</h2>
+        <form id="formCotizacion">
+            <label>Nombre Completo:</label><br>
+            <input type="text" name="nombre"><br><br>
+
+            <label>Correo electrónico:</label><br>
+            <input type="email" name="correo" required><br><br>
+
+            <fieldset>
+                <legend>Tipo de Financiamiento</legend>
+                <label><input type="radio" name="fin" value="Contado">Contado</label><br>
+                <label><input type="radio" name="fin" value="Credito">Crédito</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Servicios Adicionales</legend>
+                <label><input type="checkbox" name="extra" value="Aire Acondicionado">Aire Acondicionado</label><br>
+                <label><input type="checkbox" name="extra" value="GPS">GPS</label><br>
+                <label><input type="checkbox" name="extra" value="Seguro">Incluir Seguro</label><br>
+                
+            </fieldset>
+        </form>
+    </div>
   
 </body>
 </html>
