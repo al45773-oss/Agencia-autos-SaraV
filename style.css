@@ -64,15 +64,15 @@ body{
     background-color: #824545;
     color: yellow;
     text-align: center;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 100px;
+    border-radius: 80px;
 }
 
 .logo img{
-    width: 50%;
-    height: 50px;
+    width: 100%;
+    height: 100px;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
 }
 
 .cotizacion{
