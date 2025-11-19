@@ -42,7 +42,7 @@ function mostrarCotizacion() {
         total += preciosExtras[extra];
     });
 
-    // Si es crédito, se aumenta 8% (ejemplo)
+    // Si es crédito, se aumenta 8% 
     if (tipoFin === "Credito") {
         total = total * 1.08;
     }
